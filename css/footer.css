@@ -35,6 +35,13 @@ footer > .contact .box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    transition: all 1s;
+}
+
+footer > .contact .box:hover{
+
+    border:5px solid yellow;
 }
 
 footer > .contact .icon{
@@ -82,6 +89,13 @@ footer > .icons > .case{
     justify-content: center;
     align-items: center;
 
+    transition: all 1s;
+}
+
+footer > .icons > .case:hover{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
 }
 
 /* COPYRIGHT */
@@ -110,7 +124,7 @@ footer > .copyright > span i{
         margin-left: 3rem;
         margin-bottom: 0;
 
-        justify-content: auto;
+        /* justify-content: auto; */
     }
     footer > .contact{
         flex-direction: row;

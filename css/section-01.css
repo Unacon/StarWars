@@ -11,8 +11,24 @@
 .section-01 > header > .options > .icon a{
     text-decoration: none;
     color: #fff;   
+    transition: font-size 1s;
     /* padding-right: 1rem;  */
 } 
+
+.section-01 > header > .options > .icon a:hover{
+    font-size: 1.5rem;
+}
+
+.section-01 > header > .slogan{
+    transition: font-size 1s;
+}
+
+.section-01 > header > .slogan:hover{
+    font-size: 1.5rem;
+    
+}
+
+
 header{
     display: flex;
     /* padding-bottom: 1rem; */
@@ -30,6 +46,8 @@ header{
     align-items: center;
     flex-direction: row;
 }
+
+
 
 .section-01 > .box > .ct-01 button.yellow{
     background-color: #f1a90d;

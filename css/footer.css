@@ -13,6 +13,7 @@ footer{
 
 footer > .contact{
     width: 100%;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,11 +59,11 @@ footer > .contact .trace{
 /* Twitter Facebook Github */
 
 footer > .icons{
-    padding-top:1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
@@ -73,6 +74,9 @@ footer > .icons > .case{
     background-color: rgb(94, 90, 90);
     border-radius: 100%;    
     color: rgb(138, 137, 137);
+
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     display: flex;
     justify-content: center;
@@ -85,9 +89,31 @@ footer > .icons > .case{
 footer > .copyright{
     color: rgb(138, 137, 137);
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 footer > .copyright > span i{
     font-size: 0.8rem;
+}
+
+/* Medium Devices - Tablet */
+@media (min-width: 641px){
+    footer > .contact{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    footer > .contact .box {
+        height: 200px;
+        /* width: 220px; */
+        margin-left: 3rem;
+        margin-bottom: 0;
+
+        justify-content: auto;
+    }
+    footer > .contact{
+        flex-direction: row;
+    }
 }
 

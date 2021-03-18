@@ -48,12 +48,11 @@
 
 /* Medium Devices - Tablet */
 @media (min-width: 641px){
-
     
     /* BOX 1  */
     
     .section-03 > .container > .box.separate{
-        width: 100%;
+        width: 100%;    
         height: 25%;
         position: relative;
 

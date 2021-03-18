@@ -2,7 +2,7 @@
     background-image: url('../Img/bg-masthead.jpg');
     background-size: cover;
     background-image: linear-gradient(to bottom, transparent 0%, black 95%), url('../Img/bg-masthead.jpg');
-    color: #fff;
+    color: #717171;
     width: 100vw;
     height: 100vh;
     padding:1rem 2rem;
@@ -17,9 +17,9 @@ header{
 }
 
 header > .options > .icon a{
-    text-decoration: none;
-    color: #fff;   
+    text-decoration: none;  
     transition: font-size 1s;
+    color: #717171;
 } 
 
 header > .options > .icon a:hover{

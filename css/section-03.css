@@ -4,9 +4,8 @@
     width: 100vw;
     height: 100%;
     padding: 1.5rem;
-    /* padding:2rem 1rem; */
-
 }
+
 .section-03 > .container{
     width: 100%;
     height: 100%;
@@ -16,146 +15,44 @@
     color:white;
 }
 
-/* BOX 1  */
-
-.section-03 > .container > .box1{
+/* BOXS   */
+.section-03 > .container > .box{
     width: 100%;
     height: 25%;
+    margin-top: 1rem;
     position: relative;
-
-    /* width: 100%;
-    height: 50%; */
-    /* background-image: url("../Img/bg-masthead.jpg");
-    background-size: 100% 100%; */
 }
-.section-03 > .container > .box1 .date1{
+.section-03 > .container > .box > .date{
     position: absolute;
     bottom: 8px;
     left: 16px;
 }
-.section-03 > .container > .box1 > .date1 .text{
+.section-03 > .container > .box > .date .text{
     color: rgb(167, 167, 167);
     font-size: 0.8rem;
 }
 
-.section-03 > .container > .box1 > .trace{
+.section-03 > .container > .box > .trace{
     height: 30%;
     position: absolute;
     bottom: 45px;
     border-right: 5px solid yellow;
 }
 
-.section-03 > .container > .box1 > img{
+.section-03 > .container > .box > img{
     width: 100%;
     height: 100%;  
 }
 /* --------- */
-
-/* BOX 2 */
-
-.section-03 > .container > .box2{
-    width: 100%;
-    height: 25%;
-    margin-top: 1rem;
-    position: relative;
-
-
-}
-.section-03 > .container > .box2 > img{
-    width: 100%;
-    height: 100%;
-
-}
-
-.section-03 > .container > .box2 .date2{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.section-03 > .container > .box2 > .date2 .text{
-    color: rgb(167, 167, 167);
-    font-size: 0.8rem;
-}
-
-.section-03 > .container > .box2 > .trace{
-    height: 30%;
-    position: absolute;
-    bottom: 45px;
-    border-right: 5px solid yellow;
-}
-
-/* ----- */
-
-/* BOX 3 */
-
-.section-03 > .container > .box3{
-    width: 100%;
-    height: 25%;
-    margin-top: 1rem;
-    position: relative;
-
-
-}
-.section-03 > .container > .box3 > img{
-    width: 100%;
-    height: 100%;
-
-}
-
-.section-03 > .container > .box3 .date3{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-.section-03 > .container > .box3 > .date3 .text{
-    color: rgb(167, 167, 167);
-    font-size: 0.8rem;
-}
-
-.section-03 > .container > .box3 > .trace{
-    height: 30%;
-    position: absolute;
-    bottom: 45px;
-    border-right: 5px solid yellow;
-}
-
 /* RESPONSIVE */
 
 /* Medium Devices - Tablet */
 @media (min-width: 641px){
-    .section-03{
-        background-color: #fff;
-        padding: 3rem;
-    
-        width: 100vw;
-        height: 100%;
-        padding: 1.5rem;
-        /* padding:2rem 1rem; */
-    
-    }
-    .section-03 > .container{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .section-03 .title{
-        color:black;
-    }
-
-    .section-03 > .container > .box2 .title{
-        color: white;
-    }
-
-    .section-03 > .container > .box3 .title{
-        color: white;
-    }
 
     
     /* BOX 1  */
     
-    .section-03 > .container > .box1{
+    .section-03 > .container > .box.separate{
         width: 100%;
         height: 25%;
         position: relative;
@@ -165,41 +62,41 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
-    
-
+        flex-direction: row;  
     }
-    .section-03 > .container > .box1 .date1{
+
+    .section-03 > .container > .box.separate .title{
+        color:black;
+    }
+
+    .section-03 > .container > .box .date{
         position: static;
         bottom: 0px;
         left: 0px;
 
         padding-left: 1rem;
     }
-    .section-03 > .container > .box1 > .date1 .text{
+    .section-03 > .container > .box > .date .text{
         color: rgb(167, 167, 167);
         font-size: 1rem;
     }
     
-    .section-03 > .container > .box1 > .trace{
+    .section-03 > .container > .box > .trace{
         height: 90px;
         position: static;
         bottom: 0px;
         border-right: 5px solid yellow;
     }
     
-    .section-03 > .container > .box1 > img{
+    .section-03 > .container > .box > img{
         width: 60%;
         height: 50%;  
     }
-    /* --------- */
-    
-    /* BOX 2 */
-    
-    .section-03 > .container > .box2{
+    /* --------- */    
+    /* BOX 2 */    
+    .section-03 > .container > .box.united{
         width: 100%;
-        height: 100%;
-        margin-top: 1rem;        
+        height: 100%;      
         position: relative;
 
         background-color: black;
@@ -207,95 +104,38 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
-    
+        flex-direction: row;    
     }
-    .section-03 > .container > .box2 > img{
+
+    .section-03 > .container > .box.united > img{
         width: 50%;
-        height: 100%;
+        height: 100%;    
+    } 
     
-    }
-    
-    .section-03 > .container > .box2 > .date2{
-        width: 100%;
-        height: 100%;
-        color: white;
-        /* background-color: black; */
-        position: static;
-        padding-left: 1rem;
-    }
-    
-    .section-03 > .container > .box2 > .date2 .text{
-        color: rgb(167, 167, 167);
-        font-size: 1rem;
-    }
-    
-    .section-03 > .container > .box2 > .trace{
+    .section-03 > .container > .box.united > .trace{
         height: 0;
         position: static;
-        /* bottom: 45px; */
         border:0;
     }
 
-    .section-03 > .container > .box2 > .date2 .traceHorizontal{
+    .section-03 > .container > .box.united > .date .traceHorizontal{
         width: 90px;
         border-top: 2px solid yellow;
-
         margin-top: 1rem;
     }
     
-    /* ----- */
-    
-    /* BOX 3 */
-    
-    .section-03 > .container > .box3{
-        width: 100%;
-        height: 100%;
+    /* ----- */    
+    /* BOX 3 */    
+    .section-03 > .container > .box.united.two{
         margin-top: 0;
-        position: relative;
+        flex-direction: row-reverse;      
+    }    
 
-        background-color: black;
+    .section-03 > .container > .box.united.two .date{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row-reverse;    
-    
-    }
-    .section-03 > .container > .box3 > img{
-        width: 50%;
-        height: 100%;
-    
-    }
-    
-    .section-03 > .container > .box3 .date3{
-        width: 100%;
-        height: 100%;
-        color: white;
-        position: static;
-        padding-left: 1rem;
-    }
-
-    .section-03 > .container > .box3 > .date3 > title{
-        color: white;
-    }
-
-    
-    .section-03 > .container > .box3 > .date3 .text{
-        color: rgb(167, 167, 167);
-        font-size: 1rem;
-    }
-    
-    .section-03 > .container > .box3 > .trace{
-        height: 0;
-        position: absolute;
-        bottom: 0px;
-        border: 0;
-    }
-
-    .section-03 > .container > .box3 > .date3 .traceHorizontal{
-        width: 90px;
-        border-top: 2px solid yellow;
-
-        margin-top: 1rem;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+        padding-right: 1rem;
     }
 }

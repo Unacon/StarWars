@@ -8,36 +8,34 @@
     padding:1rem 2rem;
 }
 
-.section-01 > header > .options > .icon a{
-    text-decoration: none;
-    color: #fff;   
-    transition: font-size 1s;
-    /* padding-right: 1rem;  */
-} 
-
-.section-01 > header > .options > .icon a:hover{
-    font-size: 1.5rem;
-}
-
-.section-01 > header > .slogan{
-    transition: font-size 1s;
-}
-
-.section-01 > header > .slogan:hover{
-    font-size: 1.5rem;
-    
-}
-
-
+/* HEADER */
 header{
     display: flex;
-    /* padding-bottom: 1rem; */
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
 
-.section-01 > header > .options{
+header > .options > .icon a{
+    text-decoration: none;
+    color: #fff;   
+    transition: font-size 1s;
+} 
+
+header > .options > .icon a:hover{
+    font-size: 1.5rem;
+}
+
+header > .slogan{
+    transition: font-size 1s;
+}
+
+header > .slogan:hover{
+    font-size: 1.5rem;
+    
+}
+
+header > .options{
     display: flex;
     /* padding-right: 1rem; */
     font-size: 0.7rem;
@@ -47,23 +45,14 @@ header{
     flex-direction: row;
 }
 
+/* --------- */
+/* BOX - Title Text Button */
+.section-01 .box{
+    height: 80%;
+    width: 100%;
 
-
-.section-01 > .box > .ct-01 button.yellow{
-    background-color: #f1a90d;
-    color:black;
-    /* font-size: 1rem; */
-    border-radius: 5px;
-    padding: 1rem 1.5rem;
-    font-weight: 500;
-    border: 0;
-    margin-top: 2rem;
-    transition: all 2s;
-   
-}
-.section-01 > .box > .ct-01 button.yellow:hover{
-    font-size: 1.5rem;
-
+    display: flex;
+    justify-content: center;
 }
 
 .section-01 > .box > .ct-01{
@@ -72,18 +61,9 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-
 }
-.section-01 .box{
-    height: 80%;
-    width: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.section-01 > .box >.ct-01 .text{
+.section-01 > .box > .ct-01 .text{
     padding-top:2rem;
     text-align: center;
 }
@@ -95,7 +75,7 @@ header{
     opacity: 0.6;
     background-size: 100% 100%;
 }
-
+/* --------- */
 /*  RESPONSIVE  */
 
 /* Medium Devices - Tablet */

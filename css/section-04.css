@@ -1,22 +1,17 @@
 .section-04{
-    /* background-image: url('../Img/bg-signup.jpg'); */
+    width: 100vw;
+    height: 100vh;
+    padding: 1.5rem;
+    color: #fff;
+
     background-image: linear-gradient(to bottom, transparent 0%, black 85%), url('../Img/bg-signup.jpg');
     background-size: cover;
-
     background-position: center;
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    color: #fff;
-
-    width: 100vw;
-    height: 100vh;
-    padding: 1.5rem;
-    /* padding:2rem 1rem; */
-
 }
 
 .section-04 > .icon{
@@ -41,21 +36,6 @@
     width: 300px;
 }
 
-.section-04 > form > button{
-    background-color: #f1a90d;
-    color:black;
-    /* font-size: 1rem; */
-    border-radius: 5px;
-    padding: 1rem 1.5rem;
-    font-weight: 500;
-    border: 0;
-    margin-top: 3rem;
-    transition: all 2s;
-}
-
-.section-04 > form > button.yellow:hover{
-    font-size: 1.5rem;
-}
 
 /* Medium Devices - Tablet */
 @media (min-width: 641px){
@@ -69,7 +49,5 @@
     .section-04 > form button{
         margin-left: 2rem;
         margin-top: 0;
-        /* padding-top: 0.5rem;
-        padding-bottom: 0.5rem; */
     }
 }

@@ -69,6 +69,7 @@
     }
 
     .section-03 > .container > .box .date{
+        width: 50%;
         position: static;
         bottom: 0px;
         left: 0px;

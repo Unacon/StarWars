@@ -64,16 +64,25 @@ header > .options{
 }
 
 .section-01 > .box > .ct-01 .text{
-    padding-top:2rem;
+    padding-top:1rem;
     text-align: center;
 }
 
 .section-01 > .box > .ct-01 > .img{
-    width: 80%;
-    height: 20vh;
-    background-image: url("../Img/starwars.png");
-    opacity: 0.6;
-    background-size: 100% 100%;
+    width: 100%;
+    height: 20vh; 
+    font-size: 4rem;
+    line-height: 0.75;     
+    background: linear-gradient(#F9D71C, transparent);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*opacity: 0.6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 /* --------- */
 /*  RESPONSIVE  */
@@ -87,5 +96,10 @@ header > .options{
     }
     .section-01 > header > .options .icon{
         padding-left: 1rem;
+    }
+    .section-01 > .box > .ct-01 > .img{
+        font-size: 7rem;
+        width: 100%;
+        height: 30vh; 
     }
 }
